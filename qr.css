@@ -3,12 +3,12 @@ body{
     font-weight: 400;
     font-family: "Outfit";
     background-color: hsl(212, 45%, 89%);
-    padding:100px;
+    
   }
   
   .card{
     padding-top:15px;
-    margin: auto;
+    margin:auto;
     background-color: white;
     height:420px;
     width: 250px;
