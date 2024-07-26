@@ -1,31 +1,41 @@
 body{
-    font-size: 15px;
-    font-weight: 400;
-    font-family: "Outfit";
-    background-color: hsl(212, 45%, 89%);
-    
-  }
-  
-  .card{
-    padding-top:15px;
-    margin:auto;
-    background-color: white;
-    height:420px;
-    width: 250px;
-    border-radius: 7px;
-  }
-  
-  .qr{
-    margin:auto;
-    height: 225px;
-    width: 215px;
-  }
-  
-  .message{
-    text-align: center;
-  }
-  
-  .bold{
-    font-size: 20px;
-    font-weight: 700;
-  }
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Outfit";
+  background-color: hsl(212, 45%, 89%);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 300px;
+}
+
+.container{
+background-color: hsl(212, 45%, 89%);
+
+}
+
+.card{
+  padding-top:15px;
+  margin:auto;
+  background-color: white;
+  height:420px;
+  width: 250px;
+  border-radius: 7px;
+}
+
+.qr{
+  margin:auto;
+  height: 225px;
+  width: 215px;
+}
+
+.message{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bold{
+  font-size: 20px;
+  font-weight: 700;
+}
